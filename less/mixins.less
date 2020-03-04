@@ -1,15 +1,19 @@
-
-.costum-button {
+.custom-button {
     background-color: #e6ebf5;
-    border-radius: 39px;
-    border: 6px solid #eb7530;
-    display: inline-block;
-    cursor: pointer;
-    color: #eb7530;
-    width: auto;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 16px 31px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #eb7530;
+    border-radius   : 39px;
+    border          : 6px solid #eb7530;
+    display         : inline-block;
+    cursor          : pointer;
+    color           : #eb7530;
+    width           : auto;
+    font-size       : 20px;
+    font-weight     : bold;
+    padding         : 16px 31px;
+    text-decoration : none;
+    text-shadow     : 0px 1px 0px #eb7530;
+
+    &:hover {
+        background-color: @darkest-indigo;
+        color           : @darkest-orange
+    }
 }

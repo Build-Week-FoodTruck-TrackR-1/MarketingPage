@@ -168,31 +168,26 @@ table {
         text-align      : top;
     }
 
+}
 
-    img.orangeft {
-        display     : flex;
-        padding-left: 45%;
-        margin-left : 40%;
-        margin-right: 0;
-        width       : 50%;
-    }
+img.orangeft {
+    display     : flex;
+    padding-left: 40%;
+
+    margin-right: 0;
+    width       : 50%;
 }
 
 
 
-section,
-.conatainer {
+
+section.Conatainer {
     display        : flex;
     flex-direction : row;
     justify-content: center;
     width          : 80%;
     margin-left    : 10%;
     margin-right   : 10%;
-
-
-    .conatainer {
-        background-color: #28243D;
-    }
 
     h2 {
         font-size     : 3rem;
@@ -209,62 +204,69 @@ section,
         padding: 3%;
         color  : #EF903C;
     }
+
+
+    .discover {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+        width         : 25%;
+    }
+
+    .profile {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+    }
+
+    .tracking {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+    }
 }
 
-.discover {
-    display       : flex;
-    flex-direction: column;
-    padding       : 5%;
-    align-items   : center;
-}
+section.imgBlockOne {
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    // height          : 45vh;
+    // background-color: @darkest-indigo;
 
-.profile {
-    display       : flex;
-    flex-direction: column;
-    padding       : 5%;
-    align-items   : center;
-}
 
-.tracking {
-    display       : flex;
-    flex-direction: column;
-    padding       : 5%;
-    align-items   : center;
-}
+    .blockone {
+        display          : flex;
+        flex-direction   : column;
+         width         : 50%;
+        text-align       : center;
+        align-items      : center;
+         font-size     : 2rem;
 
-.imgBlockOne {
-    display       : flex;
-    flex-direction: row;
-    align-items   : center;
-    /* height     : 75vh; */
-}
+        h1 {
+            font-size    : 5rem;
+             margin-top: 35%;
+            width        : 100%;
+        }
 
-.blockone {
-    display       : flex;
-    flex-direction: column;
-    width         : 100%;
-    text-align    : center;
-    align-items   : center;
-    font-size     : 2rem;
-}
+        p {
+             margin-top: 10%;
+        }
 
-h1,
-.blockone {
-    font-size     : 5rem;
-    padding-bottom: 5%;
-}
+        .btn {
+             margin-top: 15%;
+        }
+    }
 
-.islandft {
-    display       : flex;
-    flex-direction: row;
-    align-items   : center;
-    height        : 88vh;
-}
-
-.imgBlockTwo {
-    display       : flex;
-    flex-direction: row-reverse;
-    align-items   : center;
+    .islandft {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        // height          : 55vh;
+        // background-color: @darkest-indigo;
+    }
 }
 
 .blocktwo {
@@ -274,16 +276,40 @@ h1,
     text-align    : center;
     align-items   : center;
     font-size     : 2rem;
+
+    h1 {
+        font-size: 5rem;
+        padding  : 5%;
+    }
+
+
+
+    .blueft {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        max-width       : 60%;
+        background-color: @darkest-indigo;
+
+    }
+
 }
 
-.blueft {
+.imgBlockTwo {
     display       : flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items   : center;
-    max-width     : 60%;
+    padding-bottom: 5%;
+
 }
 
-footer {
-    margin-bottom   : 5%;
-    background-color: #28243D;
+.myButton {
+    .custom-button ();
+
+}
+
+// css for about page
+
+.ourteam {
+    background-color: blue;
 }
