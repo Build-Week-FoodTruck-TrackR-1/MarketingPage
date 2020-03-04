@@ -1,4 +1,4 @@
-.costum-button {
+.custom-button {
   background-color: #e6ebf5;
   border-radius: 39px;
   border: 6px solid #eb7530;
@@ -11,6 +11,10 @@
   padding: 16px 31px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #eb7530;
+}
+.custom-button:hover {
+  background-color: #28243d;
+  color: #eb7530;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -140,6 +144,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+h1,
+h2,
+p {
+  color: #28243d;
+}
 .topshelf {
   display: flex;
   flex-direction: row;
@@ -158,6 +167,27 @@ nav {
 a {
   padding-left: 10%;
   padding-right: 10%;
+}
+footer {
+  margin: auto;
+}
+footer p {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #28243d;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4%;
+  text-align: right;
+  background-color: #28243d;
+}
+footer a {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #28243d;
+  color: #eb7530;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -315,15 +345,13 @@ table {
   color: #EF903C;
   text-align: top;
 }
-.topshelf img.orangeft {
+img.orangeft {
   display: flex;
-  padding-left: 45%;
-  margin-left: 40%;
+  padding-left: 40%;
   margin-right: 0;
   width: 50%;
 }
-section,
-.conatainer {
+section.Conatainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -331,72 +359,65 @@ section,
   margin-left: 10%;
   margin-right: 10%;
 }
-section .conatainer,
-.conatainer .conatainer {
-  background-color: #28243D;
-}
-section h2,
-.conatainer h2 {
+section.Conatainer h2 {
   font-size: 3rem;
   padding: 5%;
   /* padding-top: 10%; */
 }
-section p,
-.conatainer p {
+section.Conatainer p {
   font-size: 1.25rem;
   padding: 5%;
 }
-section i,
-.conatainer i {
+section.Conatainer i {
   padding: 3%;
   color: #EF903C;
 }
-.discover {
+section.Conatainer .discover {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+  width: 25%;
+}
+section.Conatainer .profile {
   display: flex;
   flex-direction: column;
   padding: 5%;
   align-items: center;
 }
-.profile {
+section.Conatainer .tracking {
   display: flex;
   flex-direction: column;
   padding: 5%;
   align-items: center;
 }
-.tracking {
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
-  align-items: center;
-}
-.imgBlockOne {
+section.imgBlockOne {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* height     : 75vh; */
 }
-.blockone {
+section.imgBlockOne .blockone {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   text-align: center;
   align-items: center;
   font-size: 2rem;
 }
-h1,
-.blockone {
+section.imgBlockOne .blockone h1 {
   font-size: 5rem;
-  padding-bottom: 5%;
+  margin-top: 35%;
+  width: 100%;
 }
-.islandft {
+section.imgBlockOne .blockone p {
+  margin-top: 10%;
+}
+section.imgBlockOne .blockone .btn {
+  margin-top: 15%;
+}
+section.imgBlockOne .islandft {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  height: 88vh;
-}
-.imgBlockTwo {
-  display: flex;
-  flex-direction: row-reverse;
   align-items: center;
 }
 .blocktwo {
@@ -407,13 +428,41 @@ h1,
   align-items: center;
   font-size: 2rem;
 }
-.blueft {
+.blocktwo h1 {
+  font-size: 5rem;
+  padding: 5%;
+}
+.blocktwo .blueft {
   display: flex;
   flex-direction: row;
   align-items: center;
   max-width: 60%;
+  background-color: #28243d;
 }
-footer {
-  margin-bottom: 5%;
-  background-color: #28243D;
+.imgBlockTwo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.myButton {
+  background-color: #e6ebf5;
+  border-radius: 39px;
+  border: 6px solid #eb7530;
+  display: inline-block;
+  cursor: pointer;
+  color: #eb7530;
+  width: auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb7530;
+}
+.myButton:hover {
+  background-color: #28243d;
+  color: #eb7530;
+}
+.ourteam {
+  background-color: blue;
 }
