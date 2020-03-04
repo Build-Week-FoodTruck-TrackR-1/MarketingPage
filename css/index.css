@@ -168,6 +168,24 @@ a {
   padding-left: 10%;
   padding-right: 10%;
 }
+@media screen and (max-width 500px) {
+  .topshelf {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    justify-self: center;
+    width: 100%;
+  }
+  a {
+    width: 10%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: red;
+  }
+}
 footer {
   margin: auto;
 }
@@ -321,7 +339,7 @@ table {
 .topshelf {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 .topshelf img.truck-logo {
@@ -334,11 +352,10 @@ table {
   justify-content: flex-end;
   background-color: #28243D;
   font-size: 25px;
-  padding-left: 25%;
 }
 .topshelf a {
   height: 2vh;
-  width: 100%;
+  width: 10%;
   background-color: #28243D;
   padding-left: 7%;
   padding-right: 7%;
@@ -347,14 +364,15 @@ table {
 }
 img.orangeft {
   display: flex;
-  padding-left: 40%;
-  margin-right: 0;
-  width: 50%;
+  flex-direction: row-reverse;
+  justify-self: flex-end;
+  max-width: 100%;
 }
 section.Conatainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -377,7 +395,6 @@ section.Conatainer .discover {
   flex-direction: column;
   padding: 5%;
   align-items: center;
-  width: 25%;
 }
 section.Conatainer .profile {
   display: flex;
@@ -393,13 +410,12 @@ section.Conatainer .tracking {
 }
 section.imgBlockOne {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 section.imgBlockOne .blockone {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   text-align: center;
   align-items: center;
   font-size: 2rem;
@@ -419,11 +435,13 @@ section.imgBlockOne .islandft {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .blocktwo {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   text-align: center;
   align-items: center;
   font-size: 2rem;
@@ -434,10 +452,8 @@ section.imgBlockOne .islandft {
 }
 .blocktwo .blueft {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  max-width: 60%;
-  background-color: #28243d;
+  width: 80%;
 }
 .imgBlockTwo {
   display: flex;
@@ -465,4 +481,36 @@ section.imgBlockOne .islandft {
 }
 .ourteam {
   background-color: blue;
+}
+@media screen and (max-width: 500px) {
+  .topshelf {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-self: center;
+    width: 100%;
+  }
+  .truck-logo {
+    display: block;
+    width: 25%;
+  }
+  .orangeft {
+    width: 100%;
+  }
+  a {
+    font-size: medium;
+    width: 10%;
+  }
+  section.Conatainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgBlockOne {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgBlockTwo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
