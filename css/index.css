@@ -1,8 +1,21 @@
+.costum-button {
+  background-color: #e6ebf5;
+  border-radius: 39px;
+  border: 6px solid #eb7530;
+  display: inline-block;
+  cursor: pointer;
+  color: #eb7530;
+  width: auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #eb7530;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -84,18 +97,14 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: solid black 1px;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    background-color: #E6EBF5;
+  margin: 0;
+  padding: 0;
+  border: solid black 1px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-
 /* HTML5 display-role reset for older browsers */
-
 article,
 aside,
 details,
@@ -107,203 +116,304 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
-
 body {
-    line-height: 1;
+  line-height: 1;
 }
-
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
-
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
-
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 .topshelf {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
-
-img.truck-logo {
-    display: inline-flex;
-    width: 25%;
+.topshelf,
+img {
+  width: 48%;
 }
-
 nav {
-    display: inline-flex;
-    width: 75%;
-    justify-content: flex-end;
-    background-color: #28243D;
-    font-size: 25px;
-    padding-left: 25%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4%;
+  text-align: right;
 }
-
 a {
-    height: 2vh;
-    width: 100%;
-    background-color: #28243D;
-    padding-left: 7%;
-    padding-right: 7%;
-    color: #EF903C;
-    text-align: top;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
-img.orangeft {
-    display: block;
-    margin-left: 40%;
-    margin-right: auto;
-    width: 50%;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: solid black 1px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #E6EBF5;
 }
-
-.myButton {
-    background-color: #e6ebf5;
-    border-radius: 39px;
-    border: 6px solid #eb7530;
-    display: inline-block;
-    cursor: pointer;
-    color: #eb7530;
-    width: auto;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 16px 31px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #eb7530;
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-
-.myButton:hover {
-    background-color: #e6ebf5;
+body {
+  line-height: 1;
 }
-
-.myButton:active {
-    position: relative;
-    top: 1px;
+ol,
+ul {
+  list-style: none;
 }
-
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.topshelf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.topshelf img.truck-logo {
+  display: inline-flex;
+  width: 25%;
+}
+.topshelf nav {
+  display: inline-flex;
+  width: 75%;
+  justify-content: flex-end;
+  background-color: #28243D;
+  font-size: 25px;
+  padding-left: 25%;
+}
+.topshelf a {
+  height: 2vh;
+  width: 100%;
+  background-color: #28243D;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: #EF903C;
+  text-align: top;
+}
+.topshelf img.orangeft {
+  display: flex;
+  padding-left: 45%;
+  margin-left: 40%;
+  margin-right: 0;
+  width: 50%;
+}
 section,
 .conatainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
-.conatainer {
-    background-color: #28243D;
+section .conatainer,
+.conatainer .conatainer {
+  background-color: #28243D;
 }
-
-h2,
-.container {
-    font-size: 3rem;
-    padding: 5%;
-    /* padding-top: 10%; */
+section h2,
+.conatainer h2 {
+  font-size: 3rem;
+  padding: 5%;
+  /* padding-top: 10%; */
 }
-
-p,
-.container {
-    font-size: 1.25rem;
-    padding: 5%;
+section p,
+.conatainer p {
+  font-size: 1.25rem;
+  padding: 5%;
 }
-
-i {
-    padding: 3%;
-    color: #EF903C;
+section i,
+.conatainer i {
+  padding: 3%;
+  color: #EF903C;
 }
-
 .discover {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
 }
-
 .profile {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
 }
-
 .tracking {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
 }
-
 .imgBlockOne {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* height: 75vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height     : 75vh; */
 }
-
 .blockone {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
 }
-
 h1,
 .blockone {
-    font-size: 5rem;
-    padding-bottom: 5%;
+  font-size: 5rem;
+  padding-bottom: 5%;
 }
-
 .islandft {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 88vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 88vh;
 }
-
 .imgBlockTwo {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
-
 .blocktwo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
 }
-
 .blueft {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 60%;
 }
-
 footer {
-    margin-bottom: 5%;
-    background-color: #28243D;
+  margin-bottom: 5%;
+  background-color: #28243D;
 }

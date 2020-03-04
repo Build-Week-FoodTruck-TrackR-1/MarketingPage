@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin          : 0;
+    padding         : 0;
+    border          : solid black 1px;
+    font-size       : 100%;
+    font            : inherit;
+    vertical-align  : baseline;
+    background-color: #E6EBF5;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing : 0;
+}
+
+.topshelf {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    width          : 100%;
+
+
+    img.truck-logo {
+        display: inline-flex;
+        width  : 25%;
+    }
+
+    nav {
+        display         : inline-flex;
+        width           : 75%;
+        justify-content : flex-end;
+        background-color: #28243D;
+        font-size       : 25px;
+        padding-left    : 25%;
+    }
+
+    a {
+        height          : 2vh;
+        width           : 100%;
+        background-color: #28243D;
+        padding-left    : 7%;
+        padding-right   : 7%;
+        color           : #EF903C;
+        text-align      : top;
+    }
+
+
+    img.orangeft {
+        display     : flex;
+        padding-left: 45%;
+        margin-left : 40%;
+        margin-right: 0;
+        width       : 50%;
+    }
+}
+
+
+
+section,
+.conatainer {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    width          : 80%;
+    margin-left    : 10%;
+    margin-right   : 10%;
+
+
+    .conatainer {
+        background-color: #28243D;
+    }
+
+    h2 {
+        font-size     : 3rem;
+        padding       : 5%;
+        /* padding-top: 10%; */
+    }
+
+    p {
+        font-size: 1.25rem;
+        padding  : 5%;
+    }
+
+    i {
+        padding: 3%;
+        color  : #EF903C;
+    }
+}
+
+.discover {
+    display       : flex;
+    flex-direction: column;
+    padding       : 5%;
+    align-items   : center;
+}
+
+.profile {
+    display       : flex;
+    flex-direction: column;
+    padding       : 5%;
+    align-items   : center;
+}
+
+.tracking {
+    display       : flex;
+    flex-direction: column;
+    padding       : 5%;
+    align-items   : center;
+}
+
+.imgBlockOne {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    /* height     : 75vh; */
+}
+
+.blockone {
+    display       : flex;
+    flex-direction: column;
+    width         : 100%;
+    text-align    : center;
+    align-items   : center;
+    font-size     : 2rem;
+}
+
+h1,
+.blockone {
+    font-size     : 5rem;
+    padding-bottom: 5%;
+}
+
+.islandft {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    height        : 88vh;
+}
+
+.imgBlockTwo {
+    display       : flex;
+    flex-direction: row-reverse;
+    align-items   : center;
+}
+
+.blocktwo {
+    display       : flex;
+    flex-direction: column;
+    width         : 100%;
+    text-align    : center;
+    align-items   : center;
+    font-size     : 2rem;
+}
+
+.blueft {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    max-width     : 60%;
+}
+
+footer {
+    margin-bottom   : 5%;
+    background-color: #28243D;
+}
