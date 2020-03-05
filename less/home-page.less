@@ -84,13 +84,13 @@ time,
 mark,
 audio,
 video {
-    margin          : 0;
-    padding         : 0;
-    border          : solid black 1px;
-    font-size       : 100%;
-    font            : inherit;
-    vertical-align  : baseline;
-    background-color: #E6EBF5;
+    margin             : 0;
+    padding            : 0;
+    // border          : solid black 1px;
+    font-size          : 100%;
+    font               : inherit;
+    vertical-align     : baseline;
+    background-color   : #E6EBF5;
 }
 
 
@@ -150,11 +150,12 @@ table {
     }
 
     nav {
-        display         : inline-flex;
-        width           : 75%;
-        justify-content : flex-end;
-        background-color: #28243D;
-        font-size       : 25px;
+        display            : inline-flex;
+        width              : 75%;
+        justify-content    : flex-end;
+        background-color   : #28243D;
+        font-size          : 25px;
+        font-family        : 'Acme', sans-serif;
         // padding-left    : 25%;
     }
 
@@ -166,16 +167,16 @@ table {
         padding-right   : 7%;
         color           : #EF903C;
         text-align      : top;
-        // font-size: large;
+        // font-size    : large;
     }
 
 }
 
 img.orangeft {
-    display     : flex;
-    flex-direction:row-reverse;
-    justify-self: flex-end;
-    max-width:100%;
+    display       : flex;
+    flex-direction: row-reverse;
+    justify-self  : flex-end;
+    max-width     : 100%;
 }
 
 
@@ -183,9 +184,9 @@ img.orangeft {
 
 section.Conatainer {
     display        : flex;
-    flex-direction: row;
+    flex-direction : row;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
     width          : 80%;
     margin-left    : 10%;
     margin-right   : 10%;
@@ -193,6 +194,7 @@ section.Conatainer {
     h2 {
         font-size     : 3rem;
         padding       : 5%;
+        font-family   : 'Acme', sans-serif;
         /* padding-top: 10%; */
     }
 
@@ -230,46 +232,48 @@ section.Conatainer {
 }
 
 section.imgBlockOne {
-    display         : flex;
-    align-items     : center;
+    display            : flex;
+    align-items        : center;
     // height          : 45vh;
     // background-color: @darkest-indigo;
 
 
     .blockone {
-        display          : flex;
-        flex-direction   : column;
-         width         : 80%;
-        text-align       : center;
-        align-items      : center;
-         font-size     : 2rem;
+        display       : flex;
+        flex-direction: column;
+        width         : 80%;
+        text-align    : center;
+        align-items   : center;
+        font-size     : 2rem;
 
         h1 {
-            font-size    : 5rem;
-             margin-top: 15%;
-            width        : 100%;
+            font-size  : 5rem;
+            margin-top : 15%;
+            width      : 100%;
+            font-family: 'Acme', sans-serif;
         }
 
         p {
-             margin-top: 10%;
+            margin-top: 10%;
         }
 
-        
+
     }
 
     .islandft {
-        display         : flex;
-        flex-direction  : row;
-        align-items     : center;
-        width: 80%;
-        margin: 0 auto;
+        display            : flex;
+        flex-direction     : row;
+        align-items        : center;
+        width              : 80%;
+        margin             : 0 auto;
+        padding-left       : 5%;
         // height          : 55vh;
         // background-color: @darkest-indigo;
     }
 }
 
 
-    .blocktwo {
+.blocktwo {
     display       : flex;
     flex-direction: column;
     width         : 80%;
@@ -278,16 +282,18 @@ section.imgBlockOne {
     font-size     : 2rem;
 
     h1 {
-        font-size: 5rem;
-        padding  : 5%;
+        font-size  : 5rem;
+        padding    : 5%;
+        font-family: 'Acme', sans-serif;
     }
 
 
 
     .blueft {
-        display         : flex;
-        align-items     : center;
-        width:80%;
+        display            : flex;
+        align-items        : center;
+        width              : 80%;
+        padding-right      : 5%;
         // background-color: @darkest-indigo;
 
     }
@@ -304,7 +310,7 @@ section.imgBlockOne {
 
 .myButton {
     margin-top: 15%;
-    
+
     .custom-button ();
 
 }
@@ -312,65 +318,193 @@ section.imgBlockOne {
 // css for about page
 
 .ourteam {
-<<<<<<< HEAD
-    display: flex;
+    display       : flex;
     flex-direction: column;
-    align-items: center;
-    h1{
-        font-size: 4rem;
-        padding: 10%;
-        font-family:'Acme', sans-serif;
+    align-items   : center;
+
+    .teamcontainer {
+        margin: 2%;
     }
-    h2{
-        font-size: 2.5rem;
-        padding: 10%;
-        font-family:'Acme', sans-serif;
+
+    h1 {
+        font-size  : 6rem;
+        padding    : 10%;
+        font-family: 'Acme', sans-serif;
+    }
+
+    h2 {
+        font-size  : 4rem;
+        padding    : 10%;
+        font-family: 'Acme', sans-serif;
+
+    }
+
+    p {
+        font-size  : 1.5rem;
+        padding    : 10%;
+        font-family: 'monsterrat', sans-serif;
+    }
+
+    a {
+        font-size  : 1.5rem;
+        padding    : 10%;
+        font-family: 'Monsterrat', sans-serif;
+    }
+
+
+    .CC,
+    .christian,
+    .matthew,
+    .george,
+    .shun,
+    .jevon,
+    .kerby,
+    .nick,
+    .michael {
+        padding-top: 5%;
+        border     : double @darkest-indigo 5px;
+        max-width  : 100%;
+    }
+
+    .selfie {
+        display     : block;
+        margin-left : auto;
+        margin-right: auto;
+        width       : 50%;
     }
 }
 
-
-
-
-=======
-    background-color: blue;
-}
 @media screen and (max-width: 500px) {
-    body{
+    body {}
+
+    .topshelf {
+        display        : flex;
+        align-content  : center;
+        justify-content: space-evenly;
+        justify-self   : center;
+        width          : 100%;
     }
-    .topshelf{
-        display:flex;
-        align-content: center;
-        justify-content:space-evenly;
-        justify-self: center;
+
+    .truck-logo {
+        display: block;
+        width  : 25%;
+
+    }
+
+    .orangeft {
         width: 100%;
     }
-    .truck-logo{
-        display:block;
-        width:25%;
+
+    a {
+        font-size: medium;
+        width    : 10%;
+    }
+
+    section.Conatainer {
+        display       : flex;
+        flex-direction: column;
+
 
     }
-    .orangeft{
-        width:100%;
+
+    .imgBlockOne {
+        display       : flex;
+        flex-direction: column-reverse;
+
     }
-    a{
-        font-size: medium;
-        width:10%;
+
+    .imgBlockTwo {
+        display       : flex;
+        flex-direction: column-reverse;
+
     }
-    section.Conatainer{
-        display:flex;
-        flex-direction:column;
-        
-        
+    .reviewcont {
+        display        : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items    : center;
     }
-    .imgBlockOne{
-        display:flex;
-        flex-direction:column-reverse;
-      
+    footer {
+        max-width: 95%;
     }
-    .imgBlockTwo{
-        display:flex;
-        flex-direction:column-reverse;
-     
+}
+
+//css for review-page
+.titlee {
+    display       : flex;
+    flex-direction: column;
+
+    h1 {
+        text-align      : center;
+        font-size       : 3.5rem;
+        color           : @darkest-orange;
+        padding         : 5%;
+        font-family     : 'Acme', sans-serif;
+        background-color: @darkest-indigo;
     }
-  }
->>>>>>> 3a5f6690b7d48471d489ec5ded12ffcca9c27085
+
+    .purpleft {
+
+        width     : 100%;
+        height    : 750px;
+        object-fit: cover;
+
+    }
+}
+
+.reviewcont {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+    
+
+    h2 {
+        text-align    : center;
+        display       : flex;
+        font-size     : 3rem;
+        padding       : 5%;
+        font-family   : 'Acme', sans-serif;
+        /* padding-top: 10%; */
+    }
+
+    p {
+        font-size: 1.25rem;
+        padding  : 5%;
+    }
+
+    i {
+        font-size: 3rem;
+        padding  : 3%;
+        color    : #EF903C;
+    }
+
+    .tt {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+    }
+
+    .yr {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+    }
+
+    .yf {
+        display       : flex;
+        flex-direction: column;
+        padding       : 5%;
+        align-items   : center;
+    }
+
+    .myButton {
+        margin-top: 15%;
+
+        .custom-button ();
+
+    }
+
+}
