@@ -354,7 +354,8 @@ table {
   padding-left: 7%;
   padding-right: 7%;
   color: #EF903C;
-  text-align: top;
+  text-align: center;
+  margin-top: 30px;
 }
 .orangeft {
   display: flex;
@@ -527,7 +528,7 @@ section.Conatainer .tracking {
 .ourteam .jevon,
 .ourteam .kerby,
 .ourteam .nick,
-.ourteam .michael {
+.ourteam .michael .signupcontainer {
   padding-top: 5%;
   border: outset #eb7530 25px;
   max-width: 100%;
