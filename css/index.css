@@ -355,6 +355,7 @@ table {
   padding-left: 7%;
   padding-right: 7%;
   color: #EF903C;
+<<<<<<< HEAD
   text-align: top;
   padding-top: 3%;
 }
@@ -362,6 +363,10 @@ table {
   display: flex;
   flex-direction: row;
   padding-top: 5%;
+=======
+  text-align: center;
+  margin-top: 30px;
+>>>>>>> 115b9513b5e13cdff712140d78e0f77a358bc839
 }
 .orangeftC .orangeft {
   display: flex;
@@ -519,6 +524,12 @@ section.Conatainer .tracking {
 }
 .ourteam .teamcontainer {
   margin: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #28243D;
+  align-content: center;
+  margin-left: 6%;
 }
 .ourteam h1 {
   background-color: #28243d;
@@ -550,10 +561,12 @@ section.Conatainer .tracking {
 .ourteam .jevon,
 .ourteam .kerby,
 .ourteam .nick,
-.ourteam .michael {
+.ourteam .michael,
+.ourteam .signupcontainer {
   padding-top: 5%;
   border: outset #eb7530 25px;
   max-width: 100%;
+  width: 45%;
 }
 .ourteam .selfie {
   display: block;
