@@ -172,11 +172,10 @@ table {
 
 }
 
-img.orangeft {
-    display       : flex;
-    flex-direction: row-reverse;
-    justify-self  : flex-end;
-    max-width     : 100%;
+.orangeft {
+    display            : flex;
+        align-items        : center;
+    padding-left: 47%;
 }
 
 
@@ -192,6 +191,7 @@ section.Conatainer {
     margin-right   : 10%;
 
     h2 {
+        font-family: 'Montserrat', sans-serif;
         font-size     : 3rem;
         padding       : 5%;
         font-family   : 'Acme', sans-serif;
@@ -199,6 +199,7 @@ section.Conatainer {
     }
 
     p {
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.25rem;
         padding  : 5%;
     }
@@ -231,9 +232,11 @@ section.Conatainer {
     }
 }
 
-section.imgBlockOne {
+.imgBlockOne {
     display            : flex;
     align-items        : center;
+    padding-left      : 10%;
+    width:80%;
     // height          : 45vh;
     // background-color: @darkest-indigo;
 
@@ -248,12 +251,13 @@ section.imgBlockOne {
 
         h1 {
             font-size  : 5rem;
-            margin-top : 15%;
+            margin-top : 5%;
             width      : 100%;
             font-family: 'Acme', sans-serif;
         }
 
         p {
+            font-family: 'Montserrat', sans-serif;
             margin-top: 10%;
         }
 
@@ -267,7 +271,7 @@ section.imgBlockOne {
         width              : 80%;
         margin             : 0 auto;
         padding-left       : 5%;
-        // height          : 55vh;
+        //  height          : 95vh;
         // background-color: @darkest-indigo;
     }
 }
@@ -280,11 +284,16 @@ section.imgBlockOne {
     text-align    : center;
     align-items   : center;
     font-size     : 2rem;
-
+    // padding-top: 10%;
+padding-left      : 5%;
     h1 {
         font-size  : 5rem;
-        padding    : 5%;
+        padding    : %;
         font-family: 'Acme', sans-serif;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: %;
     }
 
 
@@ -293,23 +302,26 @@ section.imgBlockOne {
         display            : flex;
         align-items        : center;
         width              : 80%;
-        padding-right      : 5%;
+        padding-right      : 10%;
+        
         // background-color: @darkest-indigo;
 
     }
 
 }
 
-.imgBlockTwo {
+.imgBlockTwo {width: 80%;
     display       : flex;
     flex-direction: row-reverse;
     align-items   : center;
     padding-bottom: 5%;
+padding-top: 5%;
+padding-left: 10%;
 
 }
 
 .myButton {
-    margin-top: 15%;
+    margin-top: 5%;
 
     .custom-button ();
 
@@ -318,6 +330,7 @@ section.imgBlockOne {
 // css for about page
 
 .ourteam {
+background-color: @darkest-indigo;
     display       : flex;
     flex-direction: column;
     align-items   : center;
@@ -327,6 +340,8 @@ section.imgBlockOne {
     }
 
     h1 {
+        background-color: @darkest-indigo;
+        color: @darkest-orange;
         font-size  : 6rem;
         padding    : 10%;
         font-family: 'Acme', sans-serif;
@@ -362,10 +377,10 @@ section.imgBlockOne {
     .nick,
     .michael {
         padding-top: 5%;
-        border     : double @darkest-indigo 5px;
+        border     : outset @darkest-orange 25px;
         max-width  : 100%;
-    }
-
+    
+}
     .selfie {
         display     : block;
         margin-left : auto;
@@ -392,6 +407,7 @@ section.imgBlockOne {
     }
 
     .orangeft {
+       padding: 0;
         width: 100%;
     }
 
@@ -410,6 +426,7 @@ section.imgBlockOne {
     .imgBlockOne {
         display       : flex;
         flex-direction: column-reverse;
+        width:80;
 
     }
 

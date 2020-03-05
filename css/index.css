@@ -356,11 +356,10 @@ table {
   color: #EF903C;
   text-align: top;
 }
-img.orangeft {
+.orangeft {
   display: flex;
-  flex-direction: row-reverse;
-  justify-self: flex-end;
-  max-width: 100%;
+  align-items: center;
+  padding-left: 47%;
 }
 section.Conatainer {
   display: flex;
@@ -372,12 +371,14 @@ section.Conatainer {
   margin-right: 10%;
 }
 section.Conatainer h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   padding: 5%;
   font-family: 'Acme', sans-serif;
   /* padding-top: 10%; */
 }
 section.Conatainer p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   padding: 5%;
 }
@@ -403,11 +404,13 @@ section.Conatainer .tracking {
   padding: 5%;
   align-items: center;
 }
-section.imgBlockOne {
+.imgBlockOne {
   display: flex;
   align-items: center;
+  padding-left: 10%;
+  width: 80%;
 }
-section.imgBlockOne .blockone {
+.imgBlockOne .blockone {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -415,16 +418,17 @@ section.imgBlockOne .blockone {
   align-items: center;
   font-size: 2rem;
 }
-section.imgBlockOne .blockone h1 {
+.imgBlockOne .blockone h1 {
   font-size: 5rem;
-  margin-top: 15%;
+  margin-top: 5%;
   width: 100%;
   font-family: 'Acme', sans-serif;
 }
-section.imgBlockOne .blockone p {
+.imgBlockOne .blockone p {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 10%;
 }
-section.imgBlockOne .islandft {
+.imgBlockOne .islandft {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -439,26 +443,34 @@ section.imgBlockOne .islandft {
   text-align: center;
   align-items: center;
   font-size: 2rem;
+  padding-left: 5%;
 }
 .blocktwo h1 {
   font-size: 5rem;
-  padding: 5%;
+  padding: %;
   font-family: 'Acme', sans-serif;
+}
+.blocktwo p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: %;
 }
 .blocktwo .blueft {
   display: flex;
   align-items: center;
   width: 80%;
-  padding-right: 5%;
+  padding-right: 10%;
 }
 .imgBlockTwo {
+  width: 80%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 10%;
 }
 .myButton {
-  margin-top: 15%;
+  margin-top: 5%;
   background-color: #e6ebf5;
   border-radius: 39px;
   border: 6px solid #eb7530;
@@ -477,6 +489,7 @@ section.imgBlockOne .islandft {
   color: #eb7530;
 }
 .ourteam {
+  background-color: #28243d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -485,6 +498,8 @@ section.imgBlockOne .islandft {
   margin: 2%;
 }
 .ourteam h1 {
+  background-color: #28243d;
+  color: #eb7530;
   font-size: 6rem;
   padding: 10%;
   font-family: 'Acme', sans-serif;
@@ -514,7 +529,7 @@ section.imgBlockOne .islandft {
 .ourteam .nick,
 .ourteam .michael {
   padding-top: 5%;
-  border: double #28243d 5px;
+  border: outset #eb7530 25px;
   max-width: 100%;
 }
 .ourteam .selfie {
@@ -536,6 +551,7 @@ section.imgBlockOne .islandft {
     width: 25%;
   }
   .orangeft {
+    padding: 0;
     width: 100%;
   }
   a {
@@ -549,6 +565,7 @@ section.imgBlockOne .islandft {
   .imgBlockOne {
     display: flex;
     flex-direction: column-reverse;
+    width: 80;
   }
   .imgBlockTwo {
     display: flex;
