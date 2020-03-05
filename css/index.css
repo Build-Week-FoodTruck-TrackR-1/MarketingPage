@@ -1,20 +1,20 @@
 .custom-button {
-  background-color: #e6ebf5;
-  border-radius: 39px;
-  border: 6px solid #eb7530;
+  background-color: #2e33cc;
+  border-radius: 7px;
   display: inline-block;
   cursor: pointer;
-  color: #eb7530;
+  color: #e6ebf5;
   width: auto;
   font-size: 20px;
   font-weight: bold;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #eb7530;
+  font-family: 'Monsterrat', sans-serif;
 }
 .custom-button:hover {
-  background-color: #28243d;
-  color: #eb7530;
+  background-color: white;
+  color: #2e33cc;
+  border: 6px solid #eb7530;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -161,6 +161,7 @@ nav {
 a {
   padding-left: 10%;
   padding-right: 10%;
+  margin-top: 25px;
 }
 @media screen and (max-width 500px) {
   .topshelf {
@@ -291,7 +292,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  background-color: #E6EBF5;
+  background-color: white;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -343,23 +344,40 @@ table {
   display: inline-flex;
   width: 75%;
   justify-content: flex-end;
-  background-color: #28243D;
+  background-color: white;
   font-size: 25px;
   font-family: 'Acme', sans-serif;
 }
 .topshelf a {
   height: 2vh;
   width: 10%;
-  background-color: #28243D;
+  background-color: white;
   padding-left: 7%;
   padding-right: 7%;
   color: #EF903C;
   text-align: top;
+  padding-top: 3%;
 }
-.orangeft {
+.orangeftC {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+}
+.orangeftC .orangeft {
   display: flex;
   align-items: center;
-  padding-left: 25%;
+  padding-left: %;
+  filter: drop-shadow(10px 10px 10px gray);
+}
+.orangeftC h1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  align-self: center;
+  font-size: 5rem;
+  margin-top: 5%;
+  width: 48%;
+  font-family: 'Acme', sans-serif;
+  font-size: 4rem;
 }
 section.Conatainer {
   display: flex;
@@ -391,18 +409,21 @@ section.Conatainer .discover {
   flex-direction: column;
   padding: 5%;
   align-items: center;
+  text-align: center;
 }
 section.Conatainer .profile {
   display: flex;
   flex-direction: column;
   padding: 5%;
   align-items: center;
+  text-align: center;
 }
 section.Conatainer .tracking {
   display: flex;
   flex-direction: column;
   padding: 5%;
   align-items: center;
+  text-align: center;
 }
 .imgBlockOne {
   display: flex;
@@ -433,8 +454,9 @@ section.Conatainer .tracking {
   flex-direction: row;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
-  padding-left: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  filter: drop-shadow(10px 10px 10px gray);
 }
 .blocktwo {
   display: flex;
@@ -455,6 +477,7 @@ section.Conatainer .tracking {
   margin-top: %;
 }
 .blocktwo .blueft {
+  filter: drop-shadow(10px 10px 10px gray);
   display: flex;
   align-items: center;
   width: 80%;
@@ -471,22 +494,22 @@ section.Conatainer .tracking {
 }
 .myButton {
   margin-top: 5%;
-  background-color: #e6ebf5;
-  border-radius: 39px;
-  border: 6px solid #eb7530;
+  background-color: #2e33cc;
+  border-radius: 7px;
   display: inline-block;
   cursor: pointer;
-  color: #eb7530;
+  color: #e6ebf5;
   width: auto;
   font-size: 20px;
   font-weight: bold;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #eb7530;
+  font-family: 'Monsterrat', sans-serif;
 }
 .myButton:hover {
-  background-color: #28243d;
-  color: #eb7530;
+  background-color: white;
+  color: #2e33cc;
+  border: 6px solid #eb7530;
 }
 .ourteam {
   background-color: #28243d;
@@ -512,7 +535,7 @@ section.Conatainer .tracking {
 .ourteam p {
   font-size: 1.5rem;
   padding: 10%;
-  font-family: 'monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .ourteam a {
   font-size: 1.5rem;
@@ -612,6 +635,7 @@ section.Conatainer .tracking {
   /* padding-top: 10%; */
 }
 .reviewcont p {
+  font-family: 'Monsterrat', sans-serif;
   font-size: 1.25rem;
   padding: 5%;
 }
@@ -640,20 +664,20 @@ section.Conatainer .tracking {
 }
 .reviewcont .myButton {
   margin-top: 15%;
-  background-color: #e6ebf5;
-  border-radius: 39px;
-  border: 6px solid #eb7530;
+  background-color: #2e33cc;
+  border-radius: 7px;
   display: inline-block;
   cursor: pointer;
-  color: #eb7530;
+  color: #e6ebf5;
   width: auto;
   font-size: 20px;
   font-weight: bold;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #eb7530;
+  font-family: 'Monsterrat', sans-serif;
 }
 .reviewcont .myButton:hover {
-  background-color: #28243d;
-  color: #eb7530;
+  background-color: white;
+  color: #2e33cc;
+  border: 6px solid #eb7530;
 }

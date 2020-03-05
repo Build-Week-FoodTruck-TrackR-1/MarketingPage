@@ -90,7 +90,7 @@ video {
     font-size          : 100%;
     font               : inherit;
     vertical-align     : baseline;
-    background-color   : #E6EBF5;
+    background-color   : white;
 }
 
 
@@ -153,7 +153,7 @@ table {
         display            : inline-flex;
         width              : 75%;
         justify-content    : flex-end;
-        background-color   : #28243D;
+        background-color   : white;
         font-size          : 25px;
         font-family        : 'Acme', sans-serif;
         // padding-left    : 25%;
@@ -162,22 +162,41 @@ table {
     a {
         height          : 2vh;
         width           : 10%;
-        background-color: #28243D;
+        background-color: white;
         padding-left    : 7%;
         padding-right   : 7%;
         color           : #EF903C;
         text-align      : top;
         // font-size    : large;
+        padding-top: 3%;
     }
 
 }
 
-.orangeft {
-    display            : flex;
-        align-items        : center;
-    padding-left: 25%;
-}
+.orangeftC {
+display: flex;
+flex-direction: row;
+padding-top: 5%;
 
+    .orangeft {
+        display     : flex;
+        align-items : center;
+        padding-left: %;
+        filter:drop-shadow(10px 10px 10px gray);
+    }
+
+    h1 {
+        padding-left: 5%;
+        padding-right: 5%;
+        align-self: center;
+        font-size  : 5rem;
+        margin-top : 5%;
+        width      : 48%;
+        font-family: 'Acme', sans-serif;
+        font-size: 4rem;
+    }
+
+}
 
 
 
@@ -191,7 +210,7 @@ section.Conatainer {
     margin-right   : 10%;
 
     h2 {
-        font-family: 'Montserrat', sans-serif;
+        font-family   : 'Montserrat', sans-serif;
         font-size     : 3rem;
         padding       : 5%;
         font-family   : 'Acme', sans-serif;
@@ -200,8 +219,8 @@ section.Conatainer {
 
     p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.25rem;
-        padding  : 5%;
+        font-size  : 1.25rem;
+        padding    : 5%;
     }
 
     i {
@@ -215,6 +234,7 @@ section.Conatainer {
         flex-direction: column;
         padding       : 5%;
         align-items   : center;
+        text-align: center;
     }
 
     .profile {
@@ -222,6 +242,7 @@ section.Conatainer {
         flex-direction: column;
         padding       : 5%;
         align-items   : center;
+        text-align: center;
     }
 
     .tracking {
@@ -229,14 +250,15 @@ section.Conatainer {
         flex-direction: column;
         padding       : 5%;
         align-items   : center;
+        text-align: center;
     }
 }
 
 .imgBlockOne {
     display            : flex;
     align-items        : center;
-    padding-left      : 10%;
-    width:80%;
+    padding-left       : 10%;
+    width              : 80%;
     // height          : 45vh;
     // background-color: @darkest-indigo;
 
@@ -258,21 +280,24 @@ section.Conatainer {
 
         p {
             font-family: 'Montserrat', sans-serif;
-            margin-top: 10%;
+            margin-top : 10%;
         }
 
 
     }
 
     .islandft {
-        display            : flex;
-        flex-direction     : row;
-        align-items        : center;
-        width              : 80%;
-        margin             : 0 auto;
-        padding-left       : 5%;
+        display             : flex;
+        flex-direction      : row;
+        align-items         : center;
+        width               : 80%;
+        // margin              : 0 auto;
+        margin-left        : 1%;
+        margin-right: 1%;
+        filter:drop-shadow(10px 10px 10px gray);
+    //     
         //  height          : 95vh;
-        // background-color: @darkest-indigo;
+        // background-color : @darkest-indigo;
     }
 }
 
@@ -285,38 +310,43 @@ section.Conatainer {
     align-items   : center;
     font-size     : 2rem;
     // padding-top: 10%;
-padding-left      : 5%;
+    padding-left  : 5%;
+
     h1 {
         font-size  : 5rem;
         padding    : %;
         font-family: 'Acme', sans-serif;
     }
-    p{
+
+    p {
         font-family: 'Montserrat', sans-serif;
-        margin-top: %;
+        margin-top : %;
     }
 
-  
+
 
     .blueft {
-        display            : flex;
-        align-items        : center;
-        width              : 80%;
-        padding-right      : 10%;
+        filter:drop-shadow(10px 10px 10px gray);
+        display      : flex;
+        align-items  : center;
+        width        : 80%;
+        padding-right: 10%;
         
+
         // background-color: @darkest-indigo;
 
     }
 
 }
 
-.imgBlockTwo {width: 80%;
+.imgBlockTwo {
+    width         : 80%;
     display       : flex;
     flex-direction: row-reverse;
     align-items   : center;
     padding-bottom: 5%;
-padding-top: 5%;
-padding-left: 10%;
+    padding-top   : 5%;
+    padding-left  : 10%;
 
 }
 
@@ -330,10 +360,10 @@ padding-left: 10%;
 // css for about page
 
 .ourteam {
-background-color: @darkest-indigo;
-    display       : flex;
-    flex-direction: column;
-    align-items   : center;
+    background-color: @darkest-indigo;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
 
     .teamcontainer {
         margin: 2%;
@@ -341,10 +371,10 @@ background-color: @darkest-indigo;
 
     h1 {
         background-color: @darkest-indigo;
-        color: @darkest-orange;
-        font-size  : 6rem;
-        padding    : 10%;
-        font-family: 'Acme', sans-serif;
+        color           : @darkest-orange;
+        font-size       : 6rem;
+        padding         : 10%;
+        font-family     : 'Acme', sans-serif;
     }
 
     h2 {
@@ -357,7 +387,7 @@ background-color: @darkest-indigo;
     p {
         font-size  : 1.5rem;
         padding    : 10%;
-        font-family: 'monsterrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     a {
@@ -379,8 +409,9 @@ background-color: @darkest-indigo;
         padding-top: 5%;
         border     : outset @darkest-orange 25px;
         max-width  : 100%;
-    
-}
+
+    }
+
     .selfie {
         display     : block;
         margin-left : auto;
@@ -407,8 +438,8 @@ background-color: @darkest-indigo;
     }
 
     .orangeft {
-       padding: 0;
-        width: 100%;
+        padding: 0;
+        width  : 100%;
     }
 
     a {
@@ -426,7 +457,7 @@ background-color: @darkest-indigo;
     .imgBlockOne {
         display       : flex;
         flex-direction: column-reverse;
-        width:80;
+        width         : 80;
 
     }
 
@@ -435,12 +466,14 @@ background-color: @darkest-indigo;
         flex-direction: column-reverse;
 
     }
+
     .reviewcont {
         display        : flex;
-        flex-direction: column;
+        flex-direction : column;
         justify-content: center;
         align-items    : center;
     }
+
     footer {
         max-width: 95%;
     }
@@ -474,7 +507,7 @@ background-color: @darkest-indigo;
     justify-content: center;
     align-items    : center;
 
-    
+
 
     h2 {
         text-align    : center;
@@ -486,6 +519,7 @@ background-color: @darkest-indigo;
     }
 
     p {
+        font-family: 'Monsterrat', sans-serif;
         font-size: 1.25rem;
         padding  : 5%;
     }
