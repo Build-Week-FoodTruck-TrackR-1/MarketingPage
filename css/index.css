@@ -359,12 +359,12 @@ table {
 .orangeft {
   display: flex;
   align-items: center;
-  padding-left: 47%;
+  padding-left: 25%;
 }
 section.Conatainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 80%;
   margin-left: 10%;
