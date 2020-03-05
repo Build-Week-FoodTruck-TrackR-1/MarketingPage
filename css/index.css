@@ -497,6 +497,12 @@ section.Conatainer .tracking {
 }
 .ourteam .teamcontainer {
   margin: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #28243D;
+  align-content: center;
+  margin-left: 6%;
 }
 .ourteam h1 {
   background-color: #28243d;
@@ -528,10 +534,12 @@ section.Conatainer .tracking {
 .ourteam .jevon,
 .ourteam .kerby,
 .ourteam .nick,
-.ourteam .michael .signupcontainer {
+.ourteam .michael,
+.ourteam .signupcontainer {
   padding-top: 5%;
   border: outset #eb7530 25px;
   max-width: 100%;
+  width: 45%;
 }
 .ourteam .selfie {
   display: block;
